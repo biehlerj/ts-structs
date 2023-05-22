@@ -18,7 +18,12 @@ Repository for implementing common data structures in Typescript
 
 ## Tools used
 
-This repo uses [nx](https://nx.dev) to manage all the dependencies for the project.
+- [nx](https://nx.dev) to manage all the dependencies for the project
+- [husky](https://typicode.github.io/husky/) to manage git hooks
+- [jest](https://jestjs.io/) for unit testing
+- [eslint](https://eslint.org/) to find and fix issues for code
+- [prettier](https://prettier.io/) for code formatting
+- [EditorConfig](https://editorconfig.org/) for enforcing code styles in files other than JS and TS
 
 ## Contributing
 
