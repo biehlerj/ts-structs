@@ -18,7 +18,7 @@ Repository for implementing common data structures in Typescript
 
 ## Tools used
 
-This repo uses [rush](https://rushjs.io/) to manage all the dependencies for the project.
+This repo uses [nx](https://nx.dev) to manage all the dependencies for the project.
 
 ## Contributing
 
