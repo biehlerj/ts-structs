@@ -23,8 +23,8 @@ devDependencies:
     specifier: 16.4.2
     version: 16.4.2(eslint@8.44.0)(nx@16.3.2)(typescript@5.0.4)
   '@nx/workspace':
-    specifier: 16.3.2
-    version: 16.3.2
+    specifier: 16.4.2
+    version: 16.4.2
   '@types/jest':
     specifier: ^29.4.0
     version: 29.5.1
@@ -1725,14 +1725,6 @@ packages:
       - nx
     dev: true
 
-  /@nrwl/devkit@16.4.2(nx@16.3.2):
-    resolution: {integrity: sha512-joT3zkEgyiAbPU4fySv32+bKSdI92mY7QIkdM3I/urgh7f4ztMx6vens+dGwW+rVEfHK23r0zuvx77VkoMg6iQ==}
-    dependencies:
-      '@nx/devkit': 16.4.2(nx@16.3.2)
-    transitivePeerDependencies:
-      - nx
-    dev: true
-
   /@nrwl/devkit@16.4.2(nx@16.4.2):
     resolution: {integrity: sha512-joT3zkEgyiAbPU4fySv32+bKSdI92mY7QIkdM3I/urgh7f4ztMx6vens+dGwW+rVEfHK23r0zuvx77VkoMg6iQ==}
     dependencies:
@@ -1955,7 +1947,7 @@ packages:
     peerDependencies:
       nx: '>= 15 <= 17'
     dependencies:
-      '@nrwl/devkit': 16.4.2(nx@16.3.2)
+      '@nrwl/devkit': 16.4.2(nx@16.4.2)
       ejs: 3.1.9
       ignore: 5.2.4
       nx: 16.3.2
