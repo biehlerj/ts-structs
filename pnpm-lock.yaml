@@ -20,8 +20,8 @@ devDependencies:
     specifier: 16.6.0
     version: 16.6.0(@types/node@20.4.2)(nx@16.5.5)(typescript@5.1.6)
   '@nx/linter':
-    specifier: 16.5.5
-    version: 16.5.5(eslint@8.45.0)(nx@16.5.5)(typescript@5.1.6)
+    specifier: 16.6.0
+    version: 16.6.0(@types/node@20.4.2)(eslint@8.45.0)(nx@16.5.5)(typescript@5.1.6)
   '@nx/workspace':
     specifier: 16.5.5
     version: 16.5.5
@@ -1856,14 +1856,16 @@ packages:
       - verdaccio
     dev: true
 
-  /@nrwl/linter@16.5.5(eslint@8.45.0)(nx@16.5.5)(typescript@5.1.6):
-    resolution: {integrity: sha512-sl+86AIR0QmbNNjx3TV5nlkT5TqrMCXwj2kTLafgzVfxLna2ssxgOfUYC2ve/5aIKJ4PG+6SzbnJg5SHqip50g==}
+  /@nrwl/linter@16.6.0(@types/node@20.4.2)(eslint@8.45.0)(nx@16.5.5)(typescript@5.1.6):
+    resolution: {integrity: sha512-E/6E8EVrOECqwevVYBUH/YF2+K2pE0GcNs6233BnGpflyxhxNYaH18vM0y0q8BGbeZEKkqEiiMTryg50+GiBzw==}
     dependencies:
-      '@nx/linter': 16.5.5(eslint@8.45.0)(nx@16.5.5)(typescript@5.1.6)
+      '@nx/linter': 16.6.0(@types/node@20.4.2)(eslint@8.45.0)(nx@16.5.5)(typescript@5.1.6)
     transitivePeerDependencies:
       - '@babel/traverse'
       - '@swc-node/register'
       - '@swc/core'
+      - '@swc/wasm'
+      - '@types/node'
       - debug
       - eslint
       - nx
@@ -2121,17 +2123,17 @@ packages:
       - typescript
     dev: true
 
-  /@nx/linter@16.5.5(eslint@8.45.0)(nx@16.5.5)(typescript@5.1.6):
-    resolution: {integrity: sha512-dbIeDQJJ/8wb2wue+4e/4xEGxJJy8WUZSCmTZf6secHScp20Kr8iHfmZIiM4Qv9t8e9fHueDxiVohDwQFOSm5g==}
+  /@nx/linter@16.6.0(@types/node@20.4.2)(eslint@8.45.0)(nx@16.5.5)(typescript@5.1.6):
+    resolution: {integrity: sha512-U0GOjvAm0BnA1AhqVshDrpA0lRDSggPYz4o3I9cCUd6ET41dwXrubZstWZ9tbPMXFlht1+Yk4CfM+XQEWW8JWQ==}
     peerDependencies:
       eslint: ^8.0.0
     peerDependenciesMeta:
       eslint:
         optional: true
     dependencies:
-      '@nrwl/linter': 16.5.5(eslint@8.45.0)(nx@16.5.5)(typescript@5.1.6)
-      '@nx/devkit': 16.5.5(nx@16.5.5)
-      '@nx/js': 16.5.5(nx@16.5.5)(typescript@5.1.6)
+      '@nrwl/linter': 16.6.0(@types/node@20.4.2)(eslint@8.45.0)(nx@16.5.5)(typescript@5.1.6)
+      '@nx/devkit': 16.6.0(nx@16.5.5)
+      '@nx/js': 16.6.0(@types/node@20.4.2)(nx@16.5.5)(typescript@5.1.6)
       '@phenomnomnominal/tsquery': 5.0.1(typescript@5.1.6)
       eslint: 8.45.0
       tmp: 0.2.1
@@ -2140,6 +2142,8 @@ packages:
       - '@babel/traverse'
       - '@swc-node/register'
       - '@swc/core'
+      - '@swc/wasm'
+      - '@types/node'
       - debug
       - nx
       - supports-color
