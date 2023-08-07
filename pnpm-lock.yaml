@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   tslib:
-    specifier: ^2.3.0
-    version: 2.5.2
+    specifier: ^2.6.1
+    version: 2.6.1
 
 devDependencies:
   '@nx/eslint-plugin':
@@ -1824,21 +1824,6 @@ packages:
       - verdaccio
     dev: true
 
-  /@nrwl/js@16.5.5(nx@16.5.5)(typescript@5.1.6):
-    resolution: {integrity: sha512-tLHhRrljgctf/RWcqMoPGoE9Wvrr34QDFrO0LwEYx2gNufco7xp5hNb5CZtwbFjVNoynK3/aafjnh3blbt+VXA==}
-    dependencies:
-      '@nx/js': 16.5.5(nx@16.5.5)(typescript@5.1.6)
-    transitivePeerDependencies:
-      - '@babel/traverse'
-      - '@swc-node/register'
-      - '@swc/core'
-      - debug
-      - nx
-      - supports-color
-      - typescript
-      - verdaccio
-    dev: true
-
   /@nrwl/js@16.6.0(@types/node@20.4.2)(nx@16.5.5)(typescript@5.1.6):
     resolution: {integrity: sha512-fMqMuqF/rwi1diirkNQ0ZgRnPwMoutE92xnLUZcqbyD/P4kTsrxleOAGvxpzpMpdvUU0Cw+cpVwHf6nw7o8JCA==}
     dependencies:
@@ -1898,7 +1883,7 @@ packages:
     hasBin: true
     dependencies:
       nx: 16.6.0
-      tslib: 2.5.2
+      tslib: 2.6.1
     transitivePeerDependencies:
       - '@swc-node/register'
       - '@swc/core'
@@ -1936,7 +1921,7 @@ packages:
       nx: 16.5.5
       semver: 7.5.3
       tmp: 0.2.1
-      tslib: 2.5.2
+      tslib: 2.6.1
     dev: true
 
   /@nx/devkit@16.6.0(nx@16.5.5):
@@ -1950,7 +1935,7 @@ packages:
       nx: 16.5.5
       semver: 7.5.3
       tmp: 0.2.1
-      tslib: 2.5.2
+      tslib: 2.6.1
     dev: true
 
   /@nx/devkit@16.6.0(nx@16.6.0):
@@ -1964,7 +1949,7 @@ packages:
       nx: 16.6.0
       semver: 7.5.3
       tmp: 0.2.1
-      tslib: 2.5.2
+      tslib: 2.6.1
     dev: true
 
   /@nx/eslint-plugin@16.6.0(@types/node@20.4.2)(@typescript-eslint/parser@5.62.0)(eslint-config-prettier@8.8.0)(eslint@8.45.0)(nx@16.5.5)(typescript@5.1.6):
@@ -1987,7 +1972,7 @@ packages:
       eslint-config-prettier: 8.8.0(eslint@8.45.0)
       jsonc-eslint-parser: 2.3.0
       semver: 7.5.3
-      tslib: 2.5.2
+      tslib: 2.6.1
     transitivePeerDependencies:
       - '@babel/traverse'
       - '@swc-node/register'
@@ -2018,7 +2003,7 @@ packages:
       jest-resolve: 29.6.2
       jest-util: 29.6.2
       resolve.exports: 1.1.0
-      tslib: 2.5.2
+      tslib: 2.6.1
     transitivePeerDependencies:
       - '@babel/traverse'
       - '@swc-node/register'
@@ -2033,48 +2018,6 @@ packages:
       - ts-node
       - typescript
       - verdaccio
-    dev: true
-
-  /@nx/js@16.5.5(nx@16.5.5)(typescript@5.1.6):
-    resolution: {integrity: sha512-pJaCmPiRnN/lnH9VsIzS1Qlpe2p14dNGgXfkonbflMr8qtzqT5izwBrojQYtUlhV6hAXuacT8AdUZlgK+y/d3g==}
-    peerDependencies:
-      verdaccio: ^5.0.4
-    peerDependenciesMeta:
-      verdaccio:
-        optional: true
-    dependencies:
-      '@babel/core': 7.22.9
-      '@babel/plugin-proposal-class-properties': 7.18.6(@babel/core@7.22.9)
-      '@babel/plugin-proposal-decorators': 7.22.7(@babel/core@7.22.9)
-      '@babel/plugin-transform-runtime': 7.22.9(@babel/core@7.22.9)
-      '@babel/preset-env': 7.22.9(@babel/core@7.22.9)
-      '@babel/preset-typescript': 7.22.5(@babel/core@7.22.9)
-      '@babel/runtime': 7.22.6
-      '@nrwl/js': 16.5.5(nx@16.5.5)(typescript@5.1.6)
-      '@nx/devkit': 16.5.5(nx@16.5.5)
-      '@nx/workspace': 16.5.5
-      '@phenomnomnominal/tsquery': 5.0.1(typescript@5.1.6)
-      babel-plugin-const-enum: 1.2.0(@babel/core@7.22.9)
-      babel-plugin-macros: 2.8.0
-      babel-plugin-transform-typescript-metadata: 0.3.2(@babel/core@7.22.9)
-      chalk: 4.1.2
-      detect-port: 1.5.1
-      fast-glob: 3.2.7
-      fs-extra: 11.1.1
-      ignore: 5.2.4
-      js-tokens: 4.0.0
-      minimatch: 3.0.5
-      semver: 7.5.3
-      source-map-support: 0.5.19
-      tslib: 2.5.2
-    transitivePeerDependencies:
-      - '@babel/traverse'
-      - '@swc-node/register'
-      - '@swc/core'
-      - debug
-      - nx
-      - supports-color
-      - typescript
     dev: true
 
   /@nx/js@16.6.0(@types/node@20.4.2)(nx@16.5.5)(typescript@5.1.6):
@@ -2110,7 +2053,7 @@ packages:
       source-map-support: 0.5.19
       ts-node: 10.9.1(@types/node@20.4.2)(typescript@5.1.6)
       tsconfig-paths: 4.2.0
-      tslib: 2.5.2
+      tslib: 2.6.1
     transitivePeerDependencies:
       - '@babel/traverse'
       - '@swc-node/register'
@@ -2137,7 +2080,7 @@ packages:
       '@phenomnomnominal/tsquery': 5.0.1(typescript@5.1.6)
       eslint: 8.45.0
       tmp: 0.2.1
-      tslib: 2.5.2
+      tslib: 2.6.1
     transitivePeerDependencies:
       - '@babel/traverse'
       - '@swc-node/register'
@@ -2351,7 +2294,7 @@ packages:
       open: 8.4.2
       rxjs: 7.8.1
       tmp: 0.2.1
-      tslib: 2.5.2
+      tslib: 2.6.1
       yargs: 17.7.2
       yargs-parser: 21.1.1
     transitivePeerDependencies:
@@ -2369,7 +2312,7 @@ packages:
       ignore: 5.2.4
       nx: 16.6.0
       rxjs: 7.8.1
-      tslib: 2.5.2
+      tslib: 2.6.1
       yargs-parser: 21.1.1
     transitivePeerDependencies:
       - '@swc-node/register'
@@ -2672,7 +2615,7 @@ packages:
     engines: {node: '>=14.15.0'}
     dependencies:
       js-yaml: 3.14.1
-      tslib: 2.5.2
+      tslib: 2.6.1
     dev: true
 
   /@zkochan/js-yaml@0.0.6:
@@ -5124,7 +5067,7 @@ packages:
       tar-stream: 2.2.0
       tmp: 0.2.1
       tsconfig-paths: 4.2.0
-      tslib: 2.5.2
+      tslib: 2.6.1
       v8-compile-cache: 2.3.0
       yargs: 17.7.2
       yargs-parser: 21.1.1
@@ -5187,7 +5130,7 @@ packages:
       tar-stream: 2.2.0
       tmp: 0.2.1
       tsconfig-paths: 4.2.0
-      tslib: 2.5.2
+      tslib: 2.6.1
       v8-compile-cache: 2.3.0
       yargs: 17.7.2
       yargs-parser: 21.1.1
@@ -5587,7 +5530,7 @@ packages:
   /rxjs@7.8.1:
     resolution: {integrity: sha512-AA3TVj+0A2iuIoQkWEK/tqFjBq2j+6PO6Y0zJcvzLAFhEFIO3HL0vls9hWLncZbAAbK0mar7oZ4V079I/qPMxg==}
     dependencies:
-      tslib: 2.5.2
+      tslib: 2.6.1
     dev: true
 
   /safe-buffer@5.2.1:
@@ -5973,8 +5916,8 @@ packages:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
     dev: true
 
-  /tslib@2.5.2:
-    resolution: {integrity: sha512-5svOrSA2w3iGFDs1HibEVBGbDrAY82bFQ3HZ3ixB+88nsbsWQoKqDRb5UBYAUPEzbBn6dAp5gRNXglySbx1MlA==}
+  /tslib@2.6.1:
+    resolution: {integrity: sha512-t0hLfiEKfMUoqhG+U1oid7Pva4bbDPHYfJNiB7BiIjRkj1pyC++4N3huJfqY6aRH6VTB0rvtzQwjM4K6qpfOig==}
 
   /tsutils@3.21.0(typescript@5.1.6):
     resolution: {integrity: sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==}
