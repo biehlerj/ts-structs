@@ -14,8 +14,8 @@ devDependencies:
     specifier: 16.10.0
     version: 16.10.0(@types/node@20.11.17)(@typescript-eslint/parser@5.62.0)(eslint-config-prettier@8.10.0)(eslint@8.57.0)(nx@16.9.1)(typescript@5.3.3)
   '@nx/jest':
-    specifier: 18.0.5
-    version: 18.0.5(@types/node@20.11.17)(nx@16.9.1)(ts-node@10.9.1)(typescript@5.3.3)
+    specifier: 18.0.7
+    version: 18.0.7(@types/node@20.11.17)(nx@16.9.1)(ts-node@10.9.1)(typescript@5.3.3)
   '@nx/js':
     specifier: 18.0.5
     version: 18.0.5(@types/node@20.11.17)(nx@16.9.1)(typescript@5.3.3)
@@ -2808,6 +2808,14 @@ packages:
       - nx
     dev: true
 
+  /@nrwl/devkit@18.0.5(nx@18.0.5):
+    resolution: {integrity: sha512-knBxI8CRmp3g7Bt0O9FJUrew7oqg5JMt8/24EphabXZSdVdxWy7OzHPyoyUVbRedUNHUK7bsUGwpxFaSAkBeyQ==}
+    dependencies:
+      '@nx/devkit': 18.0.5(nx@18.0.5)
+    transitivePeerDependencies:
+      - nx
+    dev: true
+
   /@nrwl/devkit@18.0.7(nx@16.9.1):
     resolution: {integrity: sha512-oUhwGI6JkrH9HHP+Uw8rV7uEV6o4uzrHASnhrRfs4CiaPLvSnO0fheomyIRdEuXWI3/ME9Q7Q5GvrGyqSjk+CA==}
     dependencies:
@@ -2836,10 +2844,10 @@ packages:
       - verdaccio
     dev: true
 
-  /@nrwl/jest@18.0.5(@types/node@20.11.17)(nx@16.9.1)(ts-node@10.9.1)(typescript@5.3.3):
-    resolution: {integrity: sha512-aTqcuiS4KsB5rML8X6W39ivvpp0/oA6kIhlG4fPlncWHshZbdBHH+34mQ0bzsi+a3V7R5Osjz9HYNhwBJzqlmw==}
+  /@nrwl/jest@18.0.7(@types/node@20.11.17)(nx@16.9.1)(ts-node@10.9.1)(typescript@5.3.3):
+    resolution: {integrity: sha512-u+1wdfvRZ+MF5bn2mbj8TUGaxAyrRJZN1xaFEsupfYP5rCHTcAhmvVSWqviB9RxhusxoLm9W2Ne+t/wD1cUsyA==}
     dependencies:
-      '@nx/jest': 18.0.5(@types/node@20.11.17)(nx@16.9.1)(ts-node@10.9.1)(typescript@5.3.3)
+      '@nx/jest': 18.0.7(@types/node@20.11.17)(nx@16.9.1)(ts-node@10.9.1)(typescript@5.3.3)
     transitivePeerDependencies:
       - '@babel/traverse'
       - '@swc-node/register'
@@ -3044,7 +3052,7 @@ packages:
     peerDependencies:
       nx: '>= 16 <= 18'
     dependencies:
-      '@nrwl/devkit': 18.0.5(nx@16.9.1)
+      '@nrwl/devkit': 18.0.5(nx@18.0.5)
       ejs: 3.1.9
       enquirer: 2.3.6
       ignore: 5.2.4
@@ -3148,14 +3156,14 @@ packages:
       - verdaccio
     dev: true
 
-  /@nx/jest@18.0.5(@types/node@20.11.17)(nx@16.9.1)(ts-node@10.9.1)(typescript@5.3.3):
-    resolution: {integrity: sha512-m7vZSRNiotwoRquOTe09Igv4Z8cmUclk/LJMR6NSfrnn9lnpDTRQH/VYaVWVQ7EoBNhE6H74v3EyV6YdLpCuuQ==}
+  /@nx/jest@18.0.7(@types/node@20.11.17)(nx@16.9.1)(ts-node@10.9.1)(typescript@5.3.3):
+    resolution: {integrity: sha512-47O97zlQrRlCwLKVJgQsWSYcBoZCRnv1LdyBDyVemZ33UrvVhIEEbyyADXQ1vNXwuPfGpD7FxADUHMtTSikEuA==}
     dependencies:
       '@jest/reporters': 29.6.4
       '@jest/test-result': 29.6.4
-      '@nrwl/jest': 18.0.5(@types/node@20.11.17)(nx@16.9.1)(ts-node@10.9.1)(typescript@5.3.3)
-      '@nx/devkit': 18.0.5(nx@16.9.1)
-      '@nx/js': 18.0.5(@types/node@20.11.17)(nx@16.9.1)(typescript@5.3.3)
+      '@nrwl/jest': 18.0.7(@types/node@20.11.17)(nx@16.9.1)(ts-node@10.9.1)(typescript@5.3.3)
+      '@nx/devkit': 18.0.7(nx@16.9.1)
+      '@nx/js': 18.0.7(@types/node@20.11.17)(nx@16.9.1)(typescript@5.3.3)
       '@phenomnomnominal/tsquery': 5.0.1(typescript@5.3.3)
       chalk: 4.1.2
       identity-obj-proxy: 3.0.0
