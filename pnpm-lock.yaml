@@ -23,8 +23,8 @@ devDependencies:
     specifier: 18.3.3
     version: 18.3.3(@types/node@20.12.7)(nx@16.9.1)
   '@nx/workspace':
-    specifier: 18.3.3
-    version: 18.3.3
+    specifier: 18.3.4
+    version: 18.3.4
   '@types/jest':
     specifier: ^29.5.12
     version: 29.5.12
@@ -2808,14 +2808,6 @@ packages:
       - nx
     dev: true
 
-  /@nrwl/devkit@18.3.3(nx@18.3.3):
-    resolution: {integrity: sha512-3zZLE1vfwsNie7qjVUt9lqaM1slU0RTr/dW+Yt/2lxe8Peu6f8bnCM1Pf3kSlzoxQroctfocRtVHFXJsAuAt4g==}
-    dependencies:
-      '@nx/devkit': 18.3.3(nx@18.3.3)
-    transitivePeerDependencies:
-      - nx
-    dev: true
-
   /@nrwl/devkit@18.3.4(nx@16.9.1):
     resolution: {integrity: sha512-Fty9Huqm12OYueU3uLJl3uvBUl5BvEyPfvw8+rLiNx9iftdEattM8C+268eAbIRRSLSOVXlWsJH4brlc6QZYYw==}
     dependencies:
@@ -3060,7 +3052,7 @@ packages:
     peerDependencies:
       nx: '>= 16 <= 19'
     dependencies:
-      '@nrwl/devkit': 18.3.3(nx@18.3.3)
+      '@nrwl/devkit': 18.3.3(nx@16.9.1)
       ejs: 3.1.9
       enquirer: 2.3.6
       ignore: 5.2.4
