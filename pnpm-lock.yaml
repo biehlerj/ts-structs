@@ -20,8 +20,8 @@ devDependencies:
     specifier: 19.0.3
     version: 19.0.3(@types/node@20.12.10)(nx@19.0.3)(typescript@5.4.5)
   '@nx/linter':
-    specifier: 19.0.0
-    version: 19.0.0(@types/node@20.12.10)(nx@19.0.3)
+    specifier: 19.0.3
+    version: 19.0.3(@types/node@20.12.10)(nx@19.0.3)
   '@nx/workspace':
     specifier: 19.0.0
     version: 19.0.0
@@ -2808,14 +2808,6 @@ packages:
       - nx
     dev: true
 
-  /@nrwl/devkit@19.0.0(nx@19.0.3):
-    resolution: {integrity: sha512-fUDTZorVrnqALzxpLHHUd7/ShrE1pxR9la86crFR8gYoIKQPNAgqTAKr+loCG8duYGx2ZObYHrWpH6Xf7MFXNw==}
-    dependencies:
-      '@nx/devkit': 19.0.0(nx@19.0.3)
-    transitivePeerDependencies:
-      - nx
-    dev: true
-
   /@nrwl/devkit@19.0.3(nx@19.0.3):
     resolution: {integrity: sha512-v28C6v1NdfVdGtDETj10A4qiutEnSbbbR1/5LJYfNgamHQY7GDrFUC9tk+DYaPn2glcvOHLWXYvyQMGYOe+H6Q==}
     dependencies:
@@ -2868,23 +2860,6 @@ packages:
     resolution: {integrity: sha512-asybPpyPrxLLDWWdYzFqbgubLmDKLEhoMz8x9MPOm3CH8v2vlIE6hD0JT19GdJArBPxRB33nhjtu8wmJGz5czw==}
     dependencies:
       '@nx/js': 16.10.0(@types/node@20.12.10)(nx@19.0.3)(typescript@5.4.5)
-    transitivePeerDependencies:
-      - '@babel/traverse'
-      - '@swc-node/register'
-      - '@swc/core'
-      - '@swc/wasm'
-      - '@types/node'
-      - debug
-      - nx
-      - supports-color
-      - typescript
-      - verdaccio
-    dev: true
-
-  /@nrwl/js@19.0.0(@types/node@20.12.10)(nx@19.0.3)(typescript@5.4.5):
-    resolution: {integrity: sha512-F8tlh24NxnKusca82HFfSwDRpEcUQaJ1z06uQEGx1OvFzCOR40HE/y5EnJhmL5mtAjqhJoQGcHZjX0xL2x7PuA==}
-    dependencies:
-      '@nx/js': 19.0.0(@types/node@20.12.10)(nx@19.0.3)(typescript@5.4.5)
     transitivePeerDependencies:
       - '@babel/traverse'
       - '@swc-node/register'
@@ -3036,23 +3011,6 @@ packages:
       yargs-parser: 21.1.1
     dev: true
 
-  /@nx/devkit@19.0.0(nx@19.0.3):
-    resolution: {integrity: sha512-Zch2oCBSrPgMVg5ONMjaLlyFCgQ/kVxaSBKoq/ASOEyjYJb5OtfFg+NwWoEkU4v++a1I14uD01xoO0JjBqK0nw==}
-    peerDependencies:
-      nx: '>= 17 <= 20'
-    dependencies:
-      '@nrwl/devkit': 19.0.0(nx@19.0.3)
-      ejs: 3.1.9
-      enquirer: 2.3.6
-      ignore: 5.2.4
-      minimatch: 9.0.3
-      nx: 19.0.3
-      semver: 7.5.4
-      tmp: 0.2.1
-      tslib: 2.6.2
-      yargs-parser: 21.1.1
-    dev: true
-
   /@nx/devkit@19.0.3(nx@19.0.3):
     resolution: {integrity: sha512-FxKsnN/PFFnhQtdOcHqEqnEpsfmIncYrzdA/aKgiZ/V6APuNuZBVNd5jO6EO39uvT413CHQs5+fdE+btc03AUA==}
     peerDependencies:
@@ -3105,17 +3063,17 @@ packages:
       - verdaccio
     dev: true
 
-  /@nx/eslint@19.0.0(@types/node@20.12.10)(nx@19.0.3):
-    resolution: {integrity: sha512-bPrI5SdMRPybOQFeOAbyWgPkogfZCEdP3LR5Wi1aSewhVVYMl5Z3/pEQIpPBRZL6RR36grs9FvjdLuC6ZgMYCw==}
+  /@nx/eslint@19.0.3(@types/node@20.12.10)(nx@19.0.3):
+    resolution: {integrity: sha512-lHfF+Ei7ZTa5pKmVJOhlHYYG8zZw/oqfkUhuLbK8x56euSjBv95yZaR/I8MMidyljFNxcnEW37IFJdlUA2+u+w==}
     peerDependencies:
       js-yaml: 4.1.0
     peerDependenciesMeta:
       js-yaml:
         optional: true
     dependencies:
-      '@nx/devkit': 19.0.0(nx@19.0.3)
-      '@nx/js': 19.0.0(@types/node@20.12.10)(nx@19.0.3)(typescript@5.4.5)
-      '@nx/linter': 19.0.0(@types/node@20.12.10)(nx@19.0.3)
+      '@nx/devkit': 19.0.3(nx@19.0.3)
+      '@nx/js': 19.0.3(@types/node@20.12.10)(nx@19.0.3)(typescript@5.4.5)
+      '@nx/linter': 19.0.3(@types/node@20.12.10)(nx@19.0.3)
       eslint: 8.57.0
       tslib: 2.6.2
       typescript: 5.4.5
@@ -3215,55 +3173,6 @@ packages:
       - typescript
     dev: true
 
-  /@nx/js@19.0.0(@types/node@20.12.10)(nx@19.0.3)(typescript@5.4.5):
-    resolution: {integrity: sha512-fl+NfPjjBRCjYGLg4HfRGdF2+co2olu5fCm8B8DPuOtBKCMRiEysZATcRofJ8DR5FZWaqnXIzwpZb3Ujz+eDRQ==}
-    peerDependencies:
-      verdaccio: ^5.0.4
-    peerDependenciesMeta:
-      verdaccio:
-        optional: true
-    dependencies:
-      '@babel/core': 7.23.9
-      '@babel/plugin-proposal-decorators': 7.22.7(@babel/core@7.23.9)
-      '@babel/plugin-transform-class-properties': 7.23.3(@babel/core@7.23.9)
-      '@babel/plugin-transform-runtime': 7.23.9(@babel/core@7.23.9)
-      '@babel/preset-env': 7.23.9(@babel/core@7.23.9)
-      '@babel/preset-typescript': 7.22.5(@babel/core@7.23.9)
-      '@babel/runtime': 7.22.6
-      '@nrwl/js': 19.0.0(@types/node@20.12.10)(nx@19.0.3)(typescript@5.4.5)
-      '@nx/devkit': 19.0.0(nx@19.0.3)
-      '@nx/workspace': 19.0.0
-      babel-plugin-const-enum: 1.2.0(@babel/core@7.23.9)
-      babel-plugin-macros: 2.8.0
-      babel-plugin-transform-typescript-metadata: 0.3.2(@babel/core@7.23.9)
-      chalk: 4.1.2
-      columnify: 1.6.0
-      detect-port: 1.5.1
-      fast-glob: 3.2.7
-      fs-extra: 11.1.1
-      ignore: 5.2.4
-      js-tokens: 4.0.0
-      minimatch: 9.0.3
-      npm-package-arg: 11.0.1
-      npm-run-path: 4.0.1
-      ora: 5.3.0
-      semver: 7.5.4
-      source-map-support: 0.5.19
-      ts-node: 10.9.1(@types/node@20.12.10)(typescript@5.4.5)
-      tsconfig-paths: 4.2.0
-      tslib: 2.6.2
-    transitivePeerDependencies:
-      - '@babel/traverse'
-      - '@swc-node/register'
-      - '@swc/core'
-      - '@swc/wasm'
-      - '@types/node'
-      - debug
-      - nx
-      - supports-color
-      - typescript
-    dev: true
-
   /@nx/js@19.0.3(@types/node@20.12.10)(nx@19.0.3)(typescript@5.4.5):
     resolution: {integrity: sha512-kSvoVRGzN/WIjbZykcRb3TFmXJNFN8DiWL2hMRX+aqXb7wK2vIDnA6LwwJkpYZdp20wZ39ftmENVhs0m4gBizA==}
     peerDependencies:
@@ -3313,10 +3222,10 @@ packages:
       - typescript
     dev: true
 
-  /@nx/linter@19.0.0(@types/node@20.12.10)(nx@19.0.3):
-    resolution: {integrity: sha512-xRSPc4bP8jSbGmmPIffBzK7uo66Rb8bUKE+14QfGwWC8ih1ITs6mRyNyl/zr3/H4DpZpDm5j96OtvtquzewcSw==}
+  /@nx/linter@19.0.3(@types/node@20.12.10)(nx@19.0.3):
+    resolution: {integrity: sha512-ZF87wGWDFLVw8c9juRVWom9RghUzN6yqIcOqR2XWyZkckyFLa9xa83RP/MQFmgVnhSZQPcOSp992RrawOPdvOQ==}
     dependencies:
-      '@nx/eslint': 19.0.0(@types/node@20.12.10)(nx@19.0.3)
+      '@nx/eslint': 19.0.3(@types/node@20.12.10)(nx@19.0.3)
     transitivePeerDependencies:
       - '@babel/traverse'
       - '@swc-node/register'
