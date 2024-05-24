@@ -14,8 +14,8 @@ devDependencies:
     specifier: 16.10.0
     version: 16.10.0(@types/node@20.12.12)(@typescript-eslint/parser@5.62.0)(eslint-config-prettier@8.10.0)(eslint@8.57.0)(nx@19.0.3)(typescript@5.4.5)
   '@nx/jest':
-    specifier: 19.0.3
-    version: 19.0.3(@types/node@20.12.12)(nx@19.0.3)(ts-node@10.9.2)(typescript@5.4.5)
+    specifier: 19.1.0
+    version: 19.1.0(@types/node@20.12.12)(nx@19.0.3)(ts-node@10.9.2)(typescript@5.4.5)
   '@nx/js':
     specifier: 19.1.0
     version: 19.1.0(@types/node@20.12.12)(nx@19.0.3)(typescript@5.4.5)
@@ -2824,14 +2824,6 @@ packages:
       - nx
     dev: true
 
-  /@nrwl/devkit@19.1.0(nx@19.1.0):
-    resolution: {integrity: sha512-n4YxtAMSdlXAmwcSKcLEX48kpcPGI/sX7lCfDeoSnTKud8Y1tlNeD8rf0YZV3ae+srE6j4lxfoJrRCpWweMcEQ==}
-    dependencies:
-      '@nx/devkit': 19.1.0(nx@19.1.0)
-    transitivePeerDependencies:
-      - nx
-    dev: true
-
   /@nrwl/eslint-plugin-nx@16.10.0(@types/node@20.12.12)(@typescript-eslint/parser@5.62.0)(eslint-config-prettier@8.10.0)(eslint@8.57.0)(nx@19.0.3)(typescript@5.4.5):
     resolution: {integrity: sha512-w8fHXEatdPHQeP/Yompsdrgz4BJ2BSVaaaulcovzTNJ9KrCCtDyTGY7sihU7qLVcbZtUVq9xoAsSeuTQuOCTDw==}
     dependencies:
@@ -2852,10 +2844,10 @@ packages:
       - verdaccio
     dev: true
 
-  /@nrwl/jest@19.0.3(@types/node@20.12.12)(nx@19.0.3)(ts-node@10.9.2)(typescript@5.4.5):
-    resolution: {integrity: sha512-9XzfAjHKidqcVLlxGVk4dxeIk8ZukGGRtYmkEaWGZpGURQhQyMpUSGwjAGhZNM6jD0s4Ci0vfPbc+Q6Tza1ZxQ==}
+  /@nrwl/jest@19.1.0(@types/node@20.12.12)(nx@19.0.3)(ts-node@10.9.2)(typescript@5.4.5):
+    resolution: {integrity: sha512-UZzpxvmF411xlvYF0lNOddLn0ZSCmqF4sn21W3touPEvQZglszUFR5BKnuk/A2Me86wpKOiJUMeNp8GpL6pGUQ==}
     dependencies:
-      '@nx/jest': 19.0.3(@types/node@20.12.12)(nx@19.0.3)(ts-node@10.9.2)(typescript@5.4.5)
+      '@nx/jest': 19.1.0(@types/node@20.12.12)(nx@19.0.3)(ts-node@10.9.2)(typescript@5.4.5)
     transitivePeerDependencies:
       - '@babel/traverse'
       - '@swc-node/register'
@@ -3105,7 +3097,7 @@ packages:
     peerDependencies:
       nx: '>= 17 <= 20'
     dependencies:
-      '@nrwl/devkit': 19.1.0(nx@19.1.0)
+      '@nrwl/devkit': 19.1.0(nx@19.0.3)
       ejs: 3.1.9
       enquirer: 2.3.6
       ignore: 5.2.4
@@ -3178,14 +3170,14 @@ packages:
       - verdaccio
     dev: true
 
-  /@nx/jest@19.0.3(@types/node@20.12.12)(nx@19.0.3)(ts-node@10.9.2)(typescript@5.4.5):
-    resolution: {integrity: sha512-X8yla4Rff22H3j8HbVBFsq45nRZ3o4MIeLWBZymyuB+td0oyRUYw/uCqbKqZXVzo/exmXlPffwkMvM063Z501g==}
+  /@nx/jest@19.1.0(@types/node@20.12.12)(nx@19.0.3)(ts-node@10.9.2)(typescript@5.4.5):
+    resolution: {integrity: sha512-US8oW/ZvRnVE47kTqGveuCd8A4z66qNOCcFAvtDuzHDPXn7BOOf7ZIPsAheSyIUIkzu2xr4Efb6YsuFub9p9fQ==}
     dependencies:
       '@jest/reporters': 29.7.0
       '@jest/test-result': 29.7.0
-      '@nrwl/jest': 19.0.3(@types/node@20.12.12)(nx@19.0.3)(ts-node@10.9.2)(typescript@5.4.5)
-      '@nx/devkit': 19.0.3(nx@19.0.3)
-      '@nx/js': 19.0.3(@types/node@20.12.12)(nx@19.0.3)(typescript@5.4.5)
+      '@nrwl/jest': 19.1.0(@types/node@20.12.12)(nx@19.0.3)(ts-node@10.9.2)(typescript@5.4.5)
+      '@nx/devkit': 19.1.0(nx@19.0.3)
+      '@nx/js': 19.1.0(@types/node@20.12.12)(nx@19.0.3)(typescript@5.4.5)
       '@phenomnomnominal/tsquery': 5.0.1(typescript@5.4.5)
       chalk: 4.1.2
       identity-obj-proxy: 3.0.0
@@ -5558,6 +5550,7 @@ packages:
 
   /inflight@1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
+    deprecated: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
     dependencies:
       once: 1.4.0
       wrappy: 1.0.2
