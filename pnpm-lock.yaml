@@ -17,8 +17,8 @@ devDependencies:
     specifier: 19.1.0
     version: 19.1.0(@types/node@20.14.2)(nx@19.2.2)(ts-node@10.9.2)(typescript@5.4.5)
   '@nx/js':
-    specifier: 19.1.0
-    version: 19.1.0(@types/node@20.14.2)(nx@19.2.2)(typescript@5.4.5)
+    specifier: 19.2.2
+    version: 19.2.2(@types/node@20.14.2)(nx@19.2.2)(typescript@5.4.5)
   '@nx/linter':
     specifier: 19.2.2
     version: 19.2.2(@types/node@20.14.2)(eslint@8.57.0)(nx@19.2.2)
@@ -2710,7 +2710,7 @@ packages:
       jest-haste-map: 29.7.0
       jest-regex-util: 29.6.3
       jest-util: 29.7.0
-      micromatch: 4.0.5
+      micromatch: 4.0.7
       pirates: 4.0.5
       slash: 3.0.0
       write-file-atomic: 4.0.2
@@ -5190,7 +5190,7 @@ packages:
       '@nodelib/fs.walk': 1.2.8
       glob-parent: 5.1.2
       merge2: 1.4.1
-      micromatch: 4.0.5
+      micromatch: 4.0.7
     dev: true
 
   /fast-glob@3.2.7:
@@ -5201,7 +5201,7 @@ packages:
       '@nodelib/fs.walk': 1.2.8
       glob-parent: 5.1.2
       merge2: 1.4.1
-      micromatch: 4.0.5
+      micromatch: 4.0.7
     dev: true
 
   /fast-json-stable-stringify@2.1.0:
@@ -5938,7 +5938,7 @@ packages:
       jest-regex-util: 29.6.3
       jest-util: 29.7.0
       jest-worker: 29.7.0
-      micromatch: 4.0.5
+      micromatch: 4.0.7
       walker: 1.0.8
     optionalDependencies:
       fsevents: 2.3.2
@@ -5981,7 +5981,7 @@ packages:
       '@types/stack-utils': 2.0.1
       chalk: 4.1.2
       graceful-fs: 4.2.11
-      micromatch: 4.0.5
+      micromatch: 4.0.7
       pretty-format: 29.7.0
       slash: 3.0.0
       stack-utils: 2.0.6
